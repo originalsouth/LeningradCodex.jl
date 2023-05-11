@@ -1,0 +1,19 @@
+name = "LeningradCodex"
+uuid = "972daddc-0c98-4ebe-b154-efffe8707bd7"
+authors = ["Benny <mail2benny+github@gmail.com>"]
+version = "0.1.0"
+
+[deps]
+Downloads = "f43a241f-c20a-4ad4-852c-f6b1247861c6"
+EzXML = "8f5d6c58-4d21-5cfd-889c-e3ad7ee6a615"
+JLD2 = "033835bb-8acc-5ee8-8aae-3f567f8a3819"
+OrderedCollections = "bac558e1-5e72-5ebc-8fee-abe8a469f55d"
+
+[compat]
+julia = "1"
+
+[extras]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["Test"]
